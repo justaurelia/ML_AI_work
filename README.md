@@ -80,13 +80,17 @@ Concerning the user habits:
 - a driver who goes often to a coffee house (more than once a month) has a better acceptance rate
 - a driver who goes fewer to the other places has a slight better acceptance rate but it's not significant
 
-One of the possible target with a good acceptance rate (84 %) could be :
+## Next steps and recommendations
+One of the possible target with a good acceptance rate (84 %) for the coffee house coupon could be :
 - young drivers (under 30 years old)
 - drivers who use to go at least once a month in a coffee house
 - drivers with passengers other than kid(s)
 - drivers who drive to a No Urgent Place
 - at 10AM
 - with a coupon which expire in 1 day 
+
+It would be great to do the same analysis for the other types of coupons.
+And also compare the acceptance rate for a specific target like it's done for Coffee House with the different types of coupons and see if a target is more likely to accept any kind of coupons.
 
 ## Notebooks
 
