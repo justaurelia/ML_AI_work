@@ -69,4 +69,4 @@ To get a specific price for a car, it's possible to make others analysis focused
 
 ## Notebooks
 
-- [Jupyter Notebook](./main_notebook.ipynb): A detailed exploration and analysis of the data.
+- [Jupyter Notebook](./prompt_II.ipynb): A detailed exploration and analysis of the data.
