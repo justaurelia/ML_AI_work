@@ -44,6 +44,7 @@ Output variable (desired target):
 ```
 
 ## Summary of Findings
+
 The best accuracy score that we could achieve at this point was 0.89 which is slightly better than the baseline at 0.88.
 With the 2 models Logistic Regression and Decision Tree it appears that the same main features are the one concerning social and economic context.
 That means that whatever the customer profile is the subscription or not is mostly relative to the economical and social context which is curious.
@@ -55,8 +56,10 @@ Regarding the precision score are between 0.50 and 0.55. (This has been calculat
 If I had to use a model to predict the subscription of Term Deposit for some customers, I would use either the Logistic Regression model or the Decision Tree which were both efficient in time, and got good scores. They are also the most easier to interpret.
 
 ## Next steps and recommendations
+
 We could use a different scoring method to check if necessary (Precision, Recall or Specificity if we want to maximize these scoring).
 For instance, we could use the precision scoring method and check if we get a better score than 0.55. (with using the parameter scoring='precision' in the GridSearchCV.)
+
 We could also try with the other features and check if some have an impact on the Term Deposit subscription. For instance, Does the previous marketing campaign has an impact on the last one ? 
 
 ## Notebooks
