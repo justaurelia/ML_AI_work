@@ -53,12 +53,12 @@ Here are the operations I made on the data to get a cleaned and usable dataset:
 ## Summary of Findings for global exploration
 
 ### Baguettes sold per weekday and type of day
-![Baguettes sold per weekday and type of day](/images/baguetteByWeekdayProfile.png)
+![Baguettes sold per weekday and type of day](./images/baguetteByWeekdayProfile.png)
 We can observe a clear increase of sales of baguettes during holiday and school break whatever weekday it is.
 There is also more sales during the weekend than the middle of the week.
 
 ### Baguettes sold per temperature and type of day
-![Baguettes sold per temperature and type of day](/images/baguetteByTemperatureProfile.png)
+![Baguettes sold per temperature and type of day](./images/baguetteByTemperatureProfile.png)
 We can observe a clear increase of sales of baguettes during holiday and school break.
 The base for a regular day is flat whatever temperature is outside, expect for the Freezing day which have less sales.
 
@@ -95,7 +95,7 @@ But it will complicated to have a precise estimation of the number of baguettes 
 
 
 ## Summary of Findings for global exploration
-![Global analysis](/images/thumbnail.png)
+![Global analysis](./images/thumbnail.png)
 ### profile during time of day
 - No sales between 2:30pm and 3:30pm. Maybe the bakery is closed during this time.
 - Most of the sales are done during the morning or between 4:30pm-6:30pm
