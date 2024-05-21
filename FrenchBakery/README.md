@@ -41,7 +41,7 @@ At which I added :
 Here are the operations I made on the data to get a cleaned and usable dataset:
 - Transformation of the types (date and time, unit_price)
 - Deletion of duplicates and null price
-- Isolation of refunds (negative transactions) and their associated initial transactions
+- Isolation of refunds (negative transactions) and their associated initial transactions in a separate data set which can be used separately.
 - Add category, weekday, month and total_price
 - Add temperature and holidays
 
@@ -78,20 +78,14 @@ The best MSE was 80.370 for the order (4, 2, 1). This is not a good MSE.
 In order to include other features (holiday, temperature) in the modelization, we used SARIMAX and an other evaluation method and tried with multiple values of orders.
 The best MSE was 8.344 for the order ((6, 1, 0), (0, 0, 2, 7)). This is better than the best one for ARIMA, but still not good to have a precise forecast of the sales of baguettes.
 
-### Linear Regression Approach
-I was wondering if we ignore the time series analysis and consider only the weekday and month with the others features and a linear regression, what would be the mse.
-The results are :
- - Best parameters: {'regressor__fit_intercept': False, 'regressor__positive': False, 'scaler__with_mean': False, 'scaler__with_std': True}
- - Best cross-validation score: -0.50
- - Test MSE: 144.84
-Which is not good at all. ;)
-
 ### Final thoughts
-Getting more data would increase the accuracy of the modelization. 
-Temperature and Holidays features definetely increased the score.
-The first action for the bakery owner can be to pay attention to holidays and school breaks and increase their production of baguettes for these days.
-But it will complicated to have a precise estimation of the number of baguettes sold for the following day.
+Here is the result of our predictions with the computed data :
+![Baguettes sold and predictions](./images/baguettesSoldAndPredictions.png)
 
+Getting more data would increase the accuracy of the modelization. 
+Temperature and Holidays features definetely increased the score and the accuracy of the model.
+The first action for the bakery owner can be to pay attention to holidays and school breaks and increase their production of baguettes for these days.
+Although it will be complicated to have a precise estimation of the number of baguettes to be sold for the following day for a small bakery like this.
 
 
 ## Summary of Findings for global exploration
